@@ -5,17 +5,18 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Shard',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/shard-org/shard',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Getting started',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Installing', link: '/guides/installing/' },
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Installing', link: '/getting_started/installing/' },
+						{ label: 'Your First Program', link: '/getting_started/first_program/' },
+						{ label: 'Language Tour', link: '/getting_started/language_tour/' },
 					],
 				},
 				{
