@@ -3,7 +3,6 @@ title: Welcome to Shard
 description: A low level general purpose programming language.
 template: splash
 hero:
-  tagline: A low level general purpose programming language!
   image:
     alt: Shard Logo
     file: ../../assets/shard_transparent.png
@@ -24,17 +23,39 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
 	<Card title="Minimal" icon="information">
-		It's truly minimal, avoiding unnecessary language features.
+		It's truly minimal, avoiding unnecessary language features, such as
+    safety and reliability. Also, good luck making portable code as its
+    all platform specific.
 	</Card>
-	<Card title="Blazingly Fast" icon="rocket">
-    Directly compiles to x86_64 naive code, no GC or reference-counting
+	<Card title="Ride like lightning, Crash like thunder!" icon="rocket">
+    Desipit directly compiling to x86_64 naive code and not having a GC,
+    it miserably fails at generating optimal code and is probably slower 
+    and leaks more memory than python and javascript combined.
 	</Card>
 	<Card title="Direct Control" icon="setting">
+    Like an f1 car, in the hands of the uninitialised, you will
+    crash and burn along with your program and CPU thread.
 		Shard's allows you to directly control hardware registers 
-    meaning that your program executes in the way you intented.
+    meaning that your program executes in the way you _thought_ 
+    you intented.
 	</Card>
 	<Card title="Written in Rust" icon="seti:rust">
     The Shard compiler leverages Rust's unique feature set
-    to deliver the best combination of reliability and speed.
+    to deliver the best combination of reliability and speed. Contrary
+    to its predecessor, it actually _isn't_ safe.
 	</Card>
+  <Card title="Makes the World Warmer" icon="sun">
+    By directly including a crypto miner, it makes the world a
+    warmer, cozier place, just like your server room.
+  </Card>
+  <Card title="Numeric type system" icon="puzzle">
+    Shard cleverly leverages new concepts such as an algebraic type 
+    system by completely rejecting them. We only have bytes and
+    floats as this keeps you from doing too much abstraction and
+    being productive.
+  </Card>
+  <Card title="Fearful concurrency" icon="error">
+    No threads unless youre brave enough to use pthread.h, or code
+    your own just like how unix wanted you to.
+  </Card>
 </CardGrid>
