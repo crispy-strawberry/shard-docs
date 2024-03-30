@@ -6,9 +6,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Shard',
+			logo: { src: './src/assets/shard_transparent.png' },
 			social: {
 				github: 'https://github.com/shard-org/shard',
 			},
+			favicon: '/favicon.png',
 			sidebar: [
 				{
 					label: 'Getting started',
