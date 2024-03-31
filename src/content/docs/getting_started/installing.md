@@ -20,7 +20,7 @@ To install Shard, you will _eventually_ be able to get it from your favourite li
     ```
     The Sharc Compiler (Version 0.1.0)
     (c) Shard Contributors
-    Licensed under the <LICENSE> license.
+    Licensed under the <BSD 3-clause> license.
     ```
     Congratulations! You are successfully installed the shard compiler.
     Now it's time to write your first program!
