@@ -51,7 +51,7 @@ eg: `4:66`, `f4:6`
 
 **Structs:**
 Hold types and namespaced labels. Referenced by identifier.
-Comp WARN if not CamelCase  ~~maybe not, dont know if forcing this is a good idea~~
+Comp WARN if not camelCase  ~~maybe not, dont know if forcing this is a good idea~~
 eg: `String`, `Position`
 
 ## Guessing 
